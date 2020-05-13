@@ -16,7 +16,7 @@ It simply checks if you have any unread emails in your Gmail INBOX. Display one 
 
 2. Goto: https://developers.google.com/gmail/api/quickstart/python 
 
-3. Click **Enable the Gmail API** 
+3. Click **Enable the Gmail API** (that's where you choose your account you want to monitor)
 
 4. Choose **Desktop app**
 
@@ -33,15 +33,19 @@ It simply checks if you have any unread emails in your Gmail INBOX. Display one 
 
 8. A browser should open with OAuth request. Once accepted a **token.pickle** file will be saved for any futher requests. 
 
-9. Add generic monitor applet to your menubar: right click on menubar, **Panel > Add New Items...**. Choose **Generic Monitor** from the list and close the popup.
+9. Add generic monitor applet to your menubar: right click on menubar, **Panel > Add New Items...**. 
+
+   Choose **Generic Monitor** from the list and close the popup.
 
    ![screen1](../media/scr1.jpg?raw=true)
 
-10. Configure genmon applet: right click on new applet: **Properties > Command** and put: `python ~/.config/xfce4/xfce_gmail/gmail.py` 
+10. Configure genmon applet: right click on new applet: **Properties > Command** and put command: 
 
-   You probably want disable the label display and adjust the check interval.
+    `python ~/.config/xfce4/xfce_gmail/gmail.py` 
 
-   ![screen3](../media/scr3.jpg?raw=true)
+    You probably also want to disable the label display and adjust the check interval.
+
+    ![screen3](../media/scr3.jpg?raw=true)
 
 11. You're done!
 
