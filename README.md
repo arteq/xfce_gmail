@@ -32,14 +32,14 @@ git clone https://github.com/arteq/xfce_gmail
 
 8. Add generic monitor applet to your menubar: right click on menubar, **Panel > Add New Items...**. Choose **Generic Monitor** from the list and close the popup.
 
-   ![screen1](../blob/media/scr1.jpg?raw=true)
-   ![screen2](../blob/media/scr2.jpg?raw=true)
+   ![screen1](../media/scr1.jpg?raw=true)
+   ![screen2](../media/scr2.jpg?raw=true)
 
 9. Configure genmon applet: right click on new applet: **Properties > Command** and put: `python ~/.config/xfce4/xfce_gmail/gmail.py` 
 
    You probably want disable the label display and adjust the check interval.
 
-   ![screen3](../blob/media/scr3.jpg?raw=true)
+   ![screen3](../media/scr3.jpg?raw=true)
 
 10. You're done!
 
